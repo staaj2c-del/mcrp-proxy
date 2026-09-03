@@ -1,0 +1,17 @@
+{
+  "name": "sh0tzbycorey-studio-mongo-proxy",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node local.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.10.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
